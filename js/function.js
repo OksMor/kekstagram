@@ -36,5 +36,5 @@ stringToNumber('tttt1');
  * @param {*} string -строка
  * @returns {number|NaN}
  */
-const extractNumbers = (string = '') => parseInt(string.replace(/\D+/g, ''), 10); // убрать все не чиста
+const extractNumbers = (string = '') => parseInt(string.replace(/\D+/g, ''), 10); // убрать все не числа
 extractNumbers('2ф-597');

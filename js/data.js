@@ -80,6 +80,7 @@ const createPhoto = () => {
  */
 const getPhotos = () => Array.from({length: PHOTO_COUNT}, createPhoto);
 
+const arrayPhotos = getPhotos();
 export {
-  getPhotos
+  arrayPhotos
 };
